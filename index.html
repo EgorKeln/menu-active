@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="./css/style.css" />
+        <title>Навигационное меню с активными значками при прокрутке страницы</title>
+    </head>
+
+    <body>
+
+        <header>
+            <nav>
+                <a href="#home" style="--clr:#f3218b;" class="active">
+                    <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+                    <span class="text">Home</span>
+                </a>
+                <a href="#profile" style="--clr:#2196f3;">
+                    <span class="icon"><ion-icon name="person-outline"></ion-icon></span>
+                    <span class="text">Profile</span>
+                </a>
+                <a href="#messages" style="--clr:#008a1b;">
+                    <span class="icon"><ion-icon name="chatbox-ellipses-outline"></ion-icon></span>
+                    <span class="text">Messages</span>
+                </a>
+                <a href="#photos" style="--clr:#dc1dff;">
+                    <span class="icon"><ion-icon name="image-outline"></ion-icon></span>
+                    <span class="text">Photos</span>
+                </a>
+                <a href="#settings" style="--clr:#d56f1d;">
+                    <span class="icon"><ion-icon name="settings-outline"></ion-icon></span>
+                    <span class="text">Settings</span>
+                </a>
+                <div class="indicator"></div>
+            </nav>
+        </header>
+
+        <section id="home">Home</section>
+        <section id="profile">Profile</section>
+        <section id="messages">Messages</section>
+        <section id="photos">Photos</section>
+        <section id="settings">Settings</section>
+        
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="./js/script.js"></script>
+
+    </body>
+</html>
